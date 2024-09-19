@@ -52,7 +52,6 @@ const UserForm = ({ userDetails, handleClose }) => {
                 name="name"
                 value={values?.name}
                 handleOnchage={handleChange}
-                className="w-full p-2 border border-gray-300 rounded"
               />
               {errors.name && touched.name ? (
                 <div className="text-red-500 text-sm">{errors.name}</div>
@@ -65,7 +64,6 @@ const UserForm = ({ userDetails, handleClose }) => {
                 handleOnchage={handleChange}
                 type="email"
                 value={values?.email}
-                className="w-full p-2 border border-gray-300 rounded"
               />
               {errors.email && touched.email ? (
                 <div className="text-red-500 text-sm">{errors.email}</div>
@@ -74,7 +72,6 @@ const UserForm = ({ userDetails, handleClose }) => {
 
             <ButtonComponent
               label={isCreate ? "Create" : "Update"}
-              className="w-full bg-blue-500 hover:bg-blue-600 text-white py-2 rounded transition duration-300"
             />
           </Form>
         )}
