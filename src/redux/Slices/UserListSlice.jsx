@@ -6,8 +6,8 @@ const userListSlice = createSlice({
     userList: [
       {
         id: 1,
-        name: "John Doe",
-        email: "hlll",
+        name: "sutharsan",
+        email: "sutharsansparkz@gmail.com",
       },
     ],
   },
